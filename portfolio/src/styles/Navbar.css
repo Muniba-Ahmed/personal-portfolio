@@ -31,7 +31,6 @@
 .toggleButton svg {
   font-size: 50px;
 }
-
 .toggleButton button {
   margin-right: 20px;
   background-color: transparent;
@@ -48,6 +47,11 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
@@ -69,15 +73,16 @@
   .toggleButton {
     display: none;
   }
-}
 
-.hiddenLinks {
-  display: none;
-}
-#open {
-  height: 100px;
-}
+  .hiddenLinks {
+    display: none;
+  }
 
-#open .links {
-  flex-direction: row;
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
 }
