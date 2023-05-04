@@ -1,4 +1,4 @@
-.home {
+/* .home {
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
@@ -81,9 +81,8 @@
   .skills h2 {
     font-size: 30px;
   }
-}
+} */
 
-/*
 .home {
   width: 100%;
   align-items: center;
@@ -113,6 +112,7 @@
 .about .prompt {
   width: 40%;
   font-size: 30px;
+  padding-top: 50px;
 }
 .prompt svg {
   font-size: 60px;
@@ -164,5 +164,3 @@
     font-size: 30px;
   }
 }
-
-*/
